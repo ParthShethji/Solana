@@ -54,12 +54,6 @@
 - Data deserialized from account info.
 - Allows sending data to the smart contract and querying information.
 
-## Additional Notes
-- More topics and implementation details to be covered in the next video.
-- Next video will focus on setting up an environment for writing a smart contract.
-
-
-
 
 ## Run the solana-test-validator in root folder of ubuntu and run that on bash
 
@@ -70,5 +64,3 @@ Or we can use the testnet provided by solana itself
 solana config set --url testnet
 
 to create a new wallet - solana-keygen new  or solana-keygen new -o filepath
-
-hello world
