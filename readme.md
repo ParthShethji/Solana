@@ -55,7 +55,13 @@
 - Allows sending data to the smart contract and querying information.
 
 
-## Run the solana-test-validator in root folder of ubuntu and run that on bash
+## basic commands 
+1. solana config get - give configuraiton
+2. solana config set --url localhost / --keypair path_to_keypair.json - sets keypair path
+3. solana balance - tells balance in above set account
+4. solana airdrop amount account - if accoutn not specified uses default account
+
+## Run the solana-test-validator in root folder of ubuntu or user/name and run that on wsl
 
 Next we need to set RPC URL for our localized blockchain - solana config set --url localhost 
 the ports are predefined
@@ -64,3 +70,10 @@ Or we can use the testnet provided by solana itself
 solana config set --url testnet
 
 to create a new wallet - solana-keygen new  or solana-keygen new -o filepath
+
+## once validator is on  <b> Deploy on solana<b>
+
+solana program deploy path_to_compile_file  (in example-helloworld its ./dist/program/helloworld.so)  //file ending with .so
+//this will give you the program id
+
+and then run the client
