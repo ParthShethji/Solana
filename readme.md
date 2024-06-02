@@ -1,13 +1,5 @@
 ## Solana Smart Contract Development Process
 
-### On-Chain Code
-- Written in Rust.
-- Deployed on the Solana network.
-- Network consists of validator nodes on platforms like AWS, Azure, GCP.
-
-### Off-Chain Code
-- Client code executed to interact with the smart contract.
-- Users interact via websites or applications.
 
 ### Transactions
 - Consist of a signature and a message.
