@@ -12,9 +12,3 @@ umi.use(keypairIdentity(keypair))
     .use(mplTokenMetadata())
 
 
-const metadata = {
-    name: "Sigma Coin",
-    symbol: "SGMA",
-    description: "A sigma meme coin for 🗿"
-    
-}
